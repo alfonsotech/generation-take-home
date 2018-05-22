@@ -12,14 +12,14 @@ over a followup phone call.
 ### Technologies used
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/?hl=es-419)
 
-[google-map-react](https://www.npmjs.com/package/google-map-react)
+[eact-google-maps](https://www.npmjs.com/package/react-google-maps)
 
 [react-google-geocoder](https://www.npmjs.com/package/react-google-geocoder)
 
 [axios](https://www.npmjs.com/package/axios)
 
 ### Resources used
-[stackvoerflow](https://stackoverflow.com/questions/98449/how-to-convert-an-address-to-a-latitude-longitude)
+[stackvoerflow: how-to-convert-an-address-to-a-latitude-longitude](https://stackoverflow.com/questions/98449/how-to-convert-an-address-to-a-latitude-longitude)
 
 
 ### What should you expect?
