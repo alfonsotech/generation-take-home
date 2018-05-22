@@ -12,7 +12,7 @@ over a followup phone call.
 ### Technologies used
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/?hl=es-419)
 
-[eact-google-maps](https://www.npmjs.com/package/react-google-maps)
+[react-google-maps](https://www.npmjs.com/package/react-google-maps)
 
 [react-google-geocoder](https://www.npmjs.com/package/react-google-geocoder)
 
