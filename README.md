@@ -9,6 +9,18 @@ over a followup phone call.
 
 ![app-image.png](https://ipfs.busy.org/ipfs/Qmf9B8htdzTRVbrF8iE5wRGxkbH1rAhjMdqAHjr9LhHanJ)
 
+### Notes on my process
+1. After I finished, I took a look at some other forks/solutions, and I'm not sure if I interpreted the assignment correctly. 
+2. I decided not to create a seperate component for the stores becuase it was such a small peice of code. Here is a more elaborate React app I recently built: [bPhil](https://github.com/alfonsotech/bphil)
+3. I tend to keep things as simple or complicated as is needed to do the job. This is the simplest solution I came up with.
+4. The lifecycle ComponentDidMount has two axios calls, and that is a little messy. I tried to implement an axios.all(func1, func2) and axios.spread(), but couldn't get it to work, so I went back to the longer, messier, naive solution.
+5. I didn't do much styling, as you can see. I could not get external stylesheets to work (to do with how the ap is being compiled?) and doing in-line and compoment styles is uncomfortable and messy, so I kept this to a minimum.
+6. The most challenging part of this project was getting markers on the map. I used two different npm packages and ran into trouble with both. I finally found a 5 minute video (linked below under "Resources used") that flashed some useful code on the screen, so I took a screenshot and that helped me to figure out how to get it working.
+7. The most interesting part of this project was running into an asynch (I think this is the issue!) problem that I was not able to resolve. I cut the number of stores in the .json file to 120 lines in order to get it to work.
+8. I began to implement testing and didn't finish this. I've not implemented testing in a React app before but have used Mocha/Chai to test javascript when working on datastructures here: [core-data-structures](https://github.com/alfonsotech/core-data-structures) 
+
+Thanks for reading!
+
 ### Technologies used
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/?hl=es-419)
 
